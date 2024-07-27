@@ -1,0 +1,49 @@
+{
+  "appPageId" : "5cafba7f-6a83-4d17-ab7e-b42c3263c712",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "c0125817-c333-4b53-b453-55d9159b5fc3",
+  "label" : "File a Complaint",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>       <span style=\"color: #2D2D2D;font-size: 21px;\">File a Complaint</span>      </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">Add information to file the complaint.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "6c3dbf9c-7060-479b-83af-92dbba46604d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a379074e-4b39-4959-a4f2-a9bab25fc0d0",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "ComplaintIntake",
+        "theme" : "lightning",
+        "type" : "CaseManagement"
+      },
+      "componentName" : "runtime_omnistudio:omniscript",
+      "id" : "a8cd7f5e-03fc-4180-a1e6-3ec27c6e58f1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "555f9b52-568c-433c-811a-ee64cb9e4440",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "71f4ef1e-aab1-4c2b-8c80-4cb661b97de9",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "file-a-complaint"
+}

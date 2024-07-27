@@ -1,0 +1,168 @@
+{
+  "appPageId" : "5cafba7f-6a83-4d17-ab7e-b42c3263c712",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "f609c357-340d-4fcd-a7c6-5be5ecbced27",
+  "label" : "Care Plans",
+  "regions" : [ {
+    "id" : "9d99adfe-5437-4f61-a31f-4a1aa2ede6c5",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "73b909d9-a3a1-4a7b-8324-55d7e1772bac",
+          "activeTab" : "careplans",
+          "tabs" : [ {
+            "UUID" : "b150ac21-bd28-4878-ab50-d45ce033068c",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "filterName" : "All_CarePlans",
+                "layout" : "FULL",
+                "scope" : "CarePlan"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "careplans",
+            "tabName" : "Care Plans"
+          }, {
+            "UUID" : "6185b35b-d516-4f23-9a07-2ea77742a019",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "filterName" : "All_BenefitAssignment",
+                "layout" : "FULL",
+                "scope" : "BenefitAssignment"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "benefitAssignments",
+            "tabName" : "Benefit Assignments"
+          }, {
+            "UUID" : "3f915c53-b93c-49ff-82bb-771fb5b9dac3",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "filterName" : "All_GoalAssignments",
+                "layout" : "FULL",
+                "scope" : "GoalAssignment"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "goalAssignments",
+            "tabName" : "Goal Assignments"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabLayout",
+      "id" : "73b909d9-a3a1-4a7b-8324-55d7e1772bac",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_CarePlans",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "CarePlan",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "40f50ab1-9f7e-468b-ba35-726991ae833d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b150ac21-bd28-4878-ab50-d45ce033068c",
+        "regionLabel" : "Care Plans",
+        "regionName" : "careplans",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_BenefitAssignment",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "BenefitAssignment",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "a5f4922b-d507-4c47-90d5-88bff1d73391",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6185b35b-d516-4f23-9a07-2ea77742a019",
+        "regionLabel" : "Benefit Assignments",
+        "regionName" : "benefitAssignments",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_GoalAssignments",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "GoalAssignment",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "5a2f05df-6298-451c-b4c8-778ceca3c51c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3f915c53-b93c-49ff-82bb-771fb5b9dac3",
+        "regionLabel" : "Goal Assignments",
+        "regionName" : "goalAssignments",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e429a63c-a10f-44cf-8ff8-9af3aa9e2c5b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ceff2b00-aac8-489d-bd68-7e51cc26497b",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "bm-careplans"
+}

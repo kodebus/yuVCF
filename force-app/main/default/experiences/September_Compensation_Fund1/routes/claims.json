@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "58bf6889-083d-486c-8192-feac2a33ebcd",
+  "appPageId" : "5cafba7f-6a83-4d17-ab7e-b42c3263c712",
+  "configurationTags" : [ ],
+  "devName" : "BM_Claims",
+  "id" : "68471c06-b6a3-4677-b711-34951673be96",
+  "label" : "Claims",
+  "pageAccess" : "UseParent",
+  "routeType" : "bm-claims",
+  "type" : "route",
+  "urlPrefix" : "claims"
+}
