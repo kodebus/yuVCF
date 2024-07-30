@@ -3,8 +3,12 @@
     <aura:attribute name="sidebarFooter" type="Aura.Component[]"/>
     <aura:attribute name="ProfileMenu" type="Aura.Component[]"/>
     <aura:attribute name="navBar" type="Aura.Component[]"/>
+    <aura:attribute name="newHeader" type="Aura.Component[]" required="false"/>
 
     <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-size_1-of-1">
+            {!v.newHeader}
+        </div>
         <div class="slds-col slds-size_1-of-1">
             {!v.navBar}
         </div>
@@ -13,13 +17,6 @@
         </div>
         <div class="slds-col slds-size_1-of-1">
             {!v.body}
-            <div class="slds-col headerTop">
-                <div class="slds-grid">
-                    <div class="slds-col slds-size_8-of-12">
-                        SEPTEMBER COMPENSATION FUND
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="slds-col slds-size_1-of-1">
             {!v.sidebarFooter}
@@ -27,9 +24,8 @@
         <div class="slds-col slds-size_1-of-1">
             {!v.ProfileMenu}
         </div>
+    
     </div>
 
-    
 
-    
 </aura:component>
