@@ -1,3 +1,4 @@
+/* eslint-disable radix */
 import { LightningElement } from 'lwc';
 
 export default class SimpleCalculator extends LightningElement {
@@ -15,6 +16,7 @@ export default class SimpleCalculator extends LightningElement {
     }
 
     handleAddition() {
+        // eslint-disable-next-line radix
         this.result = parseInt(this.firstNumber) + parseInt(this.secondNumber);
     }
 
