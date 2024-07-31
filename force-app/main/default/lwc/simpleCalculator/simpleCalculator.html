@@ -1,0 +1,21 @@
+<template>
+   <lightning-card title="Simple Calculator" icon-name="standard:formula">
+    <lightning-layout multiple-rows="true">
+        <lightning-layout-item size="12" padding="around-small">
+            <lightning-input type="number" label="Enter First Number" value={firstNumber} onchange={handleFirstNumberChange}></lightning-input>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" padding="around-small">
+            <lightning-input type="number" label="Enter Second Number" value={secondNumber} onchange={handleSecondNumberChange}></lightning-input>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" padding="around-small">
+            <lightning-button label="Add" onclick={handleAddition}></lightning-button>
+            <lightning-button label="Subtract" onclick={handleSubtraction}></lightning-button>
+            <lightning-button label="Multiply" onclick={handleMultiplication}></lightning-button>
+            <lightning-button label="Divide" onclick={handleDivision}></lightning-button>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" padding="around-small">
+            <p>Result: {result}</p>
+        </lightning-layout-item>
+    </lightning-layout>
+   </lightning-card> 
+</template>
