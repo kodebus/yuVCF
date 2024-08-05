@@ -1,7 +1,8 @@
-<aura:component implements="forceCommunity:themeLayout" access="global" >
+<aura:component implements="forceCommunity:themeLayout" access="global" >  
     <aura:attribute name="search" type="Aura.Component[]"/>
-    <!-- <aura:attribute name="sidebarFooter" type="Aura.Component[]"/> -->
- 
+    <aura:attribute name="sidebarFooter" type="Aura.Component[]"/>
+    <aura:attribute name="showSearch" type="Boolean" default="true" />
+        
         <div class="slds-grid slds-grid--align-center">
             <div class="slds-col">
                 <div class="slds-grid slds-grid--vertical">
@@ -11,28 +12,28 @@
                         <div class="logoContainer"></div>
                 	</div>
 
-                    <!-- Search box -->
-                    <div class="slds-col">
-                        {!v.search}
-                    </div>
+
+                    <!-- showSearch checkbox -->
+                    <aura:if isTrue="{!v.showSearch}">
+                       <div class="slds-col">
+                           {!v.search}
+                       </div>
+                    </aura:if>
                     
                     
                     <!-- Navigation Bar -->
                     <div class="slds-col">
-                       <c:verticalNav></c:verticalNav>
+                   <!-- {!v.navBar}  -->   <!-- this line was here originally -->
+                        <c:verticalNav></c:verticalNav>
                     </div>
-
-
-                    <div><p>HOLA</p></div>
-
+                   
                 </div>
-             </div>
-     
+            </div>
             
             <div class="slds-col content">
                 {!v.body}
             </div>
-       
-    </div>
+        
+	</div>
 
 </aura:component>

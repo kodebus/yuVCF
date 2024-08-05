@@ -3,7 +3,7 @@
             <div style="position: fixed;z-index: 999999;top: 0;right: 0;">
   <omnistudio-toast class="flexcard-toast-element" theme="slds" title="" message="" styletype=""> </omnistudio-toast>
 </div>
-            <div if:false={cardLoaded} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+            <div if:true={showLoader} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: transparent; z-index: 99;">
   <div>
    <omnistudio-spinner
       variant="brand"
