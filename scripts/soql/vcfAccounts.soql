@@ -1,0 +1,2 @@
+SELECT Id, IsPersonAccount, FirstName, LastName, Name, Type, PersonBirthdate
+  FROM Account

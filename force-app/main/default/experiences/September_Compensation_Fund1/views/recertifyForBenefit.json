@@ -1,0 +1,41 @@
+{
+  "appPageId" : "5cafba7f-6a83-4d17-ab7e-b42c3263c712",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8fbfe13e-b1da-48e8-b803-e25d7acdfb97",
+  "label" : "Recertify for Benefit",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>       <span style=\"color: #2D2D2D;font-size: 21px;\">Recertify for Benefit</span>      </h1><div class=\"slds-text-body_regular slds-m-top_large slds-p-bottom_x-large\">Review your information. Update or confirm the details to continue receiving the benefit.</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "ab332c77-3d3f-4625-8f16-7779565e6959",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e44a9e29-1e5f-4ac3-9b65-c37fc424ed31",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "industries_service_excellence:omniscriptContainer",
+      "id" : "d5d50442-07f9-44d1-96f0-51e1203e738d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0d83794c-b23d-4533-9b75-67d451d60633",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "3ed5c360-78d6-4d1d-8ea6-0f1f44070048",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "recertify-benefit"
+}

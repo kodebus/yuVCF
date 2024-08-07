@@ -1,0 +1,101 @@
+<template>
+
+
+ 
+    <div class="slds-vertical-tabs">
+        <ul class="slds-vertical-tabs__nav" role="tablist" aria-orientation="vertical">
+            <li class="slds-vertical-tabs__nav-item slds-is-active" title="Submit New Claim" role="presentation">
+                <a class="slds-vertical-tabs__link" href="#" role="tab" tabindex="0" aria-selected="true" aria-controls="slds-vertical-tabs-0" id="slds-vertical-tabs-0__nav">
+                    <span class="slds-vertical-tabs__left-icon">
+                        <span class="slds-icon_container slds-icon-standard-opportunity" title="Description of icon when needed">
+                            <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#opportunity"></use>
+                            </svg>
+                        </span>
+                    </span>
+                    <span class="slds-truncate" title="Create a New Claim">New Claim</span>
+                    <span class="slds-vertical-tabs__right-icon"></span>
+                </a>
+            </li>
+            <li class="slds-vertical-tabs__nav-item" title="View All Claims" role="presentation">
+                <a class="slds-vertical-tabs__link" href="#" role="tab" tabindex="-1" aria-selected="false" aria-controls="slds-vertical-tabs-1" id="slds-vertical-tabs-1__nav">
+                    <span class="slds-vertical-tabs__left-icon">
+                        <span class="slds-icon_container slds-icon-standard-case" title="Description of icon when needed">
+                            <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#case"></use>
+                            </svg>
+                        </span>
+                    </span>
+                    <span class="slds-truncate" title="My Claims">My Claims</span>
+                    <span class="slds-vertical-tabs__right-icon">
+                        <span class="slds-icon_container slds-icon-utility-error" title="This tab has an error">
+                            <svg class="slds-icon slds-icon_x-small slds-icon-text-error" aria-hidden="true">
+                                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#error"></use>
+                            </svg>
+                            <span class="slds-assistive-text">This tab has an error</span>
+                        </span>
+                    </span>
+                </a>
+            </li>
+            <li class="slds-vertical-tabs__nav-item" title="View All Documents" role="presentation">
+                <a class="slds-vertical-tabs__link" href="#" role="tab" tabindex="-1" aria-selected="false" aria-controls="slds-vertical-tabs-2" id="slds-vertical-tabs-2__nav">
+                    <span class="slds-vertical-tabs__left-icon">
+                        <span class="slds-icon_container slds-icon-standard-account" title="Description of icon when needed">
+                            <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                            </svg>
+                        </span>
+                    </span>
+                    <span class="slds-truncate" title="My Documents">My Documents</span>
+                    <span class="slds-vertical-tabs__right-icon"></span>
+                </a>
+            </li>
+            <li class="slds-vertical-tabs__nav-item" title="View All Reports" role="presentation">
+                <a class="slds-vertical-tabs__link" href="#" role="tab" tabindex="-1" aria-selected="false" aria-controls="slds-vertical-tabs-2" id="slds-vertical-tabs-3__nav">
+                    <span class="slds-vertical-tabs__left-icon">
+                        <span class="slds-icon_container slds-icon-standard-account" title="Description of icon when needed">
+                            <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                            </svg>
+                        </span>
+                    </span>
+                    <span class="slds-truncate" title="My Reports">My Reports</span>
+                    <span class="slds-vertical-tabs__right-icon"></span>
+                </a>
+            </li>
+        </ul>
+        <div class="slds-vertical-tabs__content slds-show" id="slds-vertical-tabs-0" role="tabpanel" aria-labelledby="slds-vertical-tabs-0__nav">
+            <div class="slds-text-longform">
+                <h3 class="slds-text-heading_medium">Create A New Claim</h3>
+                <p>Content for Tab 0</p>
+                <p>Lorem ipsum dolor...</p>
+                <p>Lorem ipsum dolor...</p>
+            </div>
+        </div>
+        <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-1" role="tabpanel" aria-labelledby="slds-vertical-tabs-1__nav">
+            <div class="slds-text-longform">
+                <h3 class="slds-text-heading_medium">View My Claims</h3>
+                <p>Content for Tab 1</p>
+                <p>Lorem ipsum dolor...</p>
+                <p>Lorem ipsum dolor...</p>
+            </div>
+        </div>
+        <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-2" role="tabpanel" aria-labelledby="slds-vertical-tabs-2__nav">
+            <div class="slds-text-longform">
+                <h3 class="slds-text-heading_medium">My Documents List</h3>
+                <p>Content for Tab 2</p>
+                <p>Lorem ipsum dolor...</p>
+                <p>Lorem ipsum dolor...</p>
+            </div>
+        </div>
+        <div class="slds-vertical-tabs__content slds-hide" id="slds-vertical-tabs-3" role="tabpanel" aria-labelledby="slds-vertical-tabs-3__nav">
+            <div class="slds-text-longform">
+                <h3 class="slds-text-heading_medium">View My Reports</h3>
+                <p>Content for Tab 3</p>
+                <p>Lorem ipsum dolor...</p>
+                <p>Lorem ipsum dolor...</p>
+            </div>
+        </div>
+    </div>
+
+</template>

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "72e4eabd-8601-4e15-8776-85a406f9c8d3",
+  "appPageId" : "72b57a22-ba86-4b44-8197-7def42d7cf21",
+  "configurationTags" : [ ],
+  "devName" : "Individual_Application_Related_List",
+  "id" : "1feec586-c340-4d9e-b22b-10120ee6a506",
+  "label" : "Individual Application Related List",
+  "routeType" : "relatedlist-0iT",
+  "type" : "route",
+  "urlPrefix" : "individualapplication"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "8fbfe13e-b1da-48e8-b803-e25d7acdfb97",
+  "appPageId" : "5cafba7f-6a83-4d17-ab7e-b42c3263c712",
+  "configurationTags" : [ ],
+  "devName" : "Recertify_Benefit",
+  "id" : "9366bf78-9123-4f63-856c-b2581226c962",
+  "label" : "Recertify for Benefit",
+  "routeType" : "recertify-benefit",
+  "type" : "route",
+  "urlPrefix" : "recertify-benefit"
+}

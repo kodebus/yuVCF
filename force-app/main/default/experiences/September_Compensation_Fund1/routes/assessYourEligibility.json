@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "c3e9d9b2-9f15-4634-b4e1-fc399ff62b54",
+  "appPageId" : "5cafba7f-6a83-4d17-ab7e-b42c3263c712",
+  "configurationTags" : [ ],
+  "devName" : "Benefit_Finder",
+  "id" : "b63972f2-0c0d-4644-bef4-965d9920bca4",
+  "label" : "Assess Your Eligibility",
+  "pageAccess" : "UseParent",
+  "routeType" : "benefit-finder",
+  "type" : "route",
+  "urlPrefix" : "benefit-finder"
+}

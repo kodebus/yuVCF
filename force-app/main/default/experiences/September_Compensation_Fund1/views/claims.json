@@ -1,0 +1,82 @@
+{
+  "appPageId" : "5cafba7f-6a83-4d17-ab7e-b42c3263c712",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "58bf6889-083d-486c-8192-feac2a33ebcd",
+  "label" : "Claims",
+  "regions" : [ {
+    "id" : "48aa26ab-1ec4-4f95-8bb7-066a2bb8961b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "7de262c6-f1ca-47db-b45a-6919c396052e",
+          "activeTab" : "claims",
+          "tabs" : [ {
+            "UUID" : "2c76f966-fb31-483b-b581-1f3cd90a9b7c",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "filterName" : "All_Claims",
+                "layout" : "FULL",
+                "scope" : "Claim"
+              },
+              "fqn" : "forceCommunity:objectHome"
+            } ],
+            "tabKey" : "claims",
+            "tabName" : "{!$Label.BenefitManagementAction.ClaimsPageTabNames_Claims}"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabLayout",
+      "id" : "7de262c6-f1ca-47db-b45a-6919c396052e",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : true,
+            "filterName" : "All_Claims",
+            "layout" : "FULL",
+            "pageSize" : 25,
+            "scope" : "Claim",
+            "showActionBar" : true,
+            "showChartsPanel" : true,
+            "showDisplay" : "showall",
+            "showFilterPanel" : true,
+            "showImageIcon" : true,
+            "showManualRefreshButton" : true,
+            "showObjectName" : true,
+            "showPinnedList" : true,
+            "showSearchBar" : true
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "450b1af5-9796-4190-a608-44139bd57add",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2c76f966-fb31-483b-b581-1f3cd90a9b7c",
+        "regionLabel" : "{!$Label.BenefitManagementAction.ClaimsPageTabNames_Claims}",
+        "regionName" : "claims",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b7434adb-40e1-45ae-88cd-5e52106c5c92",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "44b2537d-0651-485a-bc00-cd9a9794add3",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "bm-claims"
+}
